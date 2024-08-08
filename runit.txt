@@ -1,0 +1,3 @@
+REMEMBER TO RUN THE TAILWIND CSS FIRST : 
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch

@@ -1,0 +1,300 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 4280px;
+    margin: 0 auto;
+    background: rgba(25, 25, 25, 0.2);
+    overflow: hidden;
+  }
+  .flex-row-af {
+    position: relative;
+    width: 1194.942px;
+    height: 569px;
+    margin: 135px 0 0 146px;
+    z-index: 29;
+  }
+  .profile-picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 670px;
+    background: url(./assets/images/060f977a-1c5f-4357-a969-9d2d3c334e6c.png)
+      no-repeat center;
+    background-size: cover;
+  }
+  .m-hilmi-adzkia {
+    position: absolute;
+    width: 615px;
+    height: 88px;
+    top: 131px;
+    left: 0;
+    font-family: Hammersmith One, var(--default-font-family);
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 61.25px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    letter-spacing: 9.31px;
+    z-index: 24;
+  }
+  .im {
+    position: relative;
+    color: #ffffff;
+    font-family: Hammersmith One, var(--default-font-family);
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 61.25px;
+    text-align: left;
+  }
+  .nbsp {
+    position: relative;
+    color: #ffffff;
+    font-family: Hammersmith One, var(--default-font-family);
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 61.25px;
+    text-align: left;
+    letter-spacing: 9.31px;
+  }
+  .m-hilmi-adzkia-1 {
+    position: relative;
+    color: #00f68e;
+    font-family: Hammersmith One, var(--default-font-family);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: left;
+    letter-spacing: -0.7px;
+  }
+  .intrested-in-game {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 457px;
+    height: 66px;
+    top: 219px;
+    left: 0;
+    color: #ffffff;
+    font-family: Arapey, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32.88px;
+    text-align: left;
+    z-index: 25;
+  }
+  .rectangle {
+    position: absolute;
+    width: 232px;
+    height: 63px;
+    top: 337px;
+    left: 0;
+    border: 2px solid #00f68f;
+    z-index: 29;
+    border-radius: 20px;
+  }
+  .contact-me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 33px;
+    top: 13px;
+    left: 46px;
+    color: #00f68f;
+    font-family: Arapey, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32.88px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 28;
+  }
+  .social-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: absolute;
+    width: 203.77px;
+    height: 49.452px;
+    top: 436px;
+    left: 0;
+    z-index: 1;
+  }
+  .instagram {
+    flex-shrink: 0;
+    position: relative;
+    width: 49.452px;
+    height: 49.452px;
+    z-index: 2;
+  }
+  .instagram-icon {
+    position: absolute;
+    width: 49.452px;
+    height: 49.452px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  .vector {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/d32ffa3e-bead-4500-bacc-0590b2299806.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 4;
+  }
+  .youtube {
+    flex-shrink: 0;
+    position: relative;
+    width: 54.044px;
+    height: 38px;
+    z-index: 5;
+  }
+  .youtube-icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/b8801eef-816a-4e82-a86d-c04a8060c386.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 6;
+  }
+  .linkedin {
+    flex-shrink: 0;
+    position: relative;
+    width: 40.274px;
+    height: 40.274px;
+    z-index: 7;
+  }
+  .linkedin-icon {
+    position: absolute;
+    width: 40.274px;
+    height: 40.274px;
+    top: 0;
+    left: 0;
+    z-index: 8;
+  }
+  .group {
+    position: relative;
+    width: 28.845px;
+    height: 28.809px;
+    margin: 5.523px 0 0 5.486px;
+    z-index: 10;
+  }
+  .vector-2 {
+    position: absolute;
+    width: 24.03%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/cbcbee50-8929-434f-9ea4-1d4b627ee15c.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 11;
+  }
+  .vector-3 {
+    position: absolute;
+    width: 64.63%;
+    height: 68.39%;
+    top: 31.61%;
+    left: 35.38%;
+    background: url(./assets/images/290b06df-b33e-4b32-9c5b-d41f5358f1c7.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+  }
+  .vector-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/3b7ef154-a0ae-4c1a-806b-b3e35e30c0ac.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 9;
+  }
+  .about {
+    display: block;
+    position: relative;
+    height: 61px;
+    margin: 184px 0 0 146px;
+    color: #ffffff;
+    font-family: Hammersmith One, var(--default-font-family);
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 61px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.49px;
+    z-index: 13;
+  }
+  .long-established-fact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 971px;
+    height: 189px;
+    margin: 26px 0 0 213px;
+    color: #ffffff;
+    font-family: Arapey, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 27.4px;
+    text-align: left;
+    z-index: 26;
+  }
+  .education-icon {
+    position: relative;
+    width: 28px;
+    height: 25.274px;
+    margin: 126px 0 0 706px;
+    background: url(./assets/images/85855f81-fe47-4b1a-a49a-c5e6c80327ce.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 17;
+  }
+  .education {
+    display: block;
+    position: relative;
+    height: 31px;
+    margin: 12.726px 0 0 635px;
+    color: #ffffff;
+    font-family: Hammersmith One, var(--default-font-family);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
